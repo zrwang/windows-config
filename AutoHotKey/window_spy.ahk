@@ -1,0 +1,1 @@
+#1::WinGetClass, Clipboard, A ; press WIN+1 will copy the ahk_class of the Active Window to clipboard
