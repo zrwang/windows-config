@@ -42,7 +42,11 @@ is_target()
     Return 1
   IfWinActive,ahk_exe Balsamiq Mockups 3.exe
     Return 1
-  Return 0
+  ;WinGetTitle, Title, A
+  ;FoundPos := RegExMatch(Title, "Overleaf")
+  ;If FoundPos != 0
+  ;  Return 1
+  ;Return 0
 }
 
 delete_char()
