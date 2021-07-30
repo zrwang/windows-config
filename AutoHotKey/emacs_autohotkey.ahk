@@ -88,11 +88,15 @@ keys["chrome.exe"]
     , "k": ["^w", False, ""] }
   , "alt"
    : {"n": ["^t", False, ""]
-    , "b": ["^b", False, ""] } }
+    , "b": ["^b", False, ""]
+    , "i": ["^i", False, ""]
+    , "u": ["^u", False, ""] } }
 
 keys["Notion.exe"]
 := {"alt"
-   : {"b": ["^b", False, ""] } }
+   : {"b": ["^b", False, ""]
+    , "i": ["^i", False, ""]
+    , "u": ["^u", False, ""] } }
 
 Notion.exe
 
