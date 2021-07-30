@@ -87,7 +87,14 @@ keys["chrome.exe"]
     , "f": ["^l", False, ""]
     , "k": ["^w", False, ""] }
   , "alt"
-   : {"n": ["^t", False, ""] } }
+   : {"n": ["^t", False, ""]
+    , "b": ["^b", False, ""]} }
+
+keys["Notion.exe"]
+:= {"alt"
+   : {"b": ["^b", False, ""]} }
+
+Notion.exe
 
 keys["globalOverride"]
 := {"ctrl"
@@ -100,7 +107,7 @@ keys["globalOverride"]
   , "alt"
     : {"m": ["{LWin down}{Up}{LWin up}", False, ""] } }
 
-global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe"]
+global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe", "ubuntu2004.exe", "sublime_text.exe"]
 global ctrlXActive := False
 global ctrlSpaceActive := False
 
