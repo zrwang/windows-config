@@ -98,8 +98,6 @@ keys["Notion.exe"]
     , "i": ["^i", False, ""]
     , "u": ["^u", False, ""] } }
 
-Notion.exe
-
 keys["globalOverride"]
 := {"ctrl"
     : {"x": ["", False, "MacroStartCtrlX"] }
