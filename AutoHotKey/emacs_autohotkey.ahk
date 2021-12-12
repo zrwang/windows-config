@@ -89,14 +89,17 @@ keys["chrome.exe"]
   , "alt"
    : {"n": ["^t", False, ""]
     , "b": ["^b", False, ""]
-    , "i": ["^i", False, ""]
-    , "u": ["^u", False, ""] } }
+    , "u": ["^u", False, ""] }
+  , "ctrl"
+   : {"q": ["^p", False, ""] } }
 
 keys["Notion.exe"]
 := {"alt"
    : {"b": ["^b", False, ""]
     , "i": ["^i", False, ""]
-    , "u": ["^u", False, ""] } }
+    , "u": ["^u", False, ""] }
+  , "ctrl"
+   : {"q": ["^p", False, ""] } }
 
 keys["globalOverride"]
 := {"ctrl"
