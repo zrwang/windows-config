@@ -89,7 +89,8 @@ keys["chrome.exe"]
   , "alt"
    : {"n": ["^t", False, ""]
     , "b": ["^b", False, ""]
-    , "u": ["^u", False, ""] }
+    , "u": ["^u", False, ""]
+    , "i": ["^i", False, ""] }
   , "ctrl"
    : {"q": ["^p", False, ""] } }
 
@@ -112,7 +113,7 @@ keys["globalOverride"]
   , "alt"
     : {"m": ["{LWin down}{Up}{LWin up}", False, ""] } }
 
-global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe", "ubuntu2004.exe", "sublime_text.exe"]
+global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe", "ubuntu2004.exe", "sublime_text.exe", "Zoom.exe"]
 global ctrlXActive := False
 global ctrlSpaceActive := False
 
