@@ -43,7 +43,7 @@ global keys
         ,"d": ["{Del}", False, ""]
         ,"e": ["{End}", True, ""]
         ,"f": ["{Right}", True, ""]
-        ,"g": ["{Escape}", False, ""]
+        ;,"g": ["{Escape}", False, ""]
         ,"h": ["{Backspace}", False, ""]
         ,"j": ["", True, ""]
         ,"k": ["", False, "MacroKillLine"]
@@ -88,17 +88,35 @@ keys["chrome.exe"]
     , "k": ["^w", False, ""] }
   , "alt"
    : {"n": ["^t", False, ""]
+    , "d": ["^d", False, ""]
     , "b": ["^b", False, ""]
+    , "i": ["^i", False, ""]
     , "u": ["^u", False, ""]
-    , "i": ["^i", False, ""] }
+    , "e": ["^e", False, ""]
+    , "\": ["^\", False, ""]
+    , "k": ["^k", False, ""]
+    , "h": ["^h", False, ""] }
   , "ctrl"
-   : {"q": ["^p", False, ""] } }
+   : {"q": ["^p", False, ""]
+    , "/": ["^/", False, ""]
+    , "r": ["^r", False, ""] } }
 
 keys["Notion.exe"]
 := {"alt"
+   : {"d": ["^d", False, ""]
+    , "b": ["^b", False, ""]
+    , "i": ["^i", False, ""]
+    , "u": ["^u", False, ""]
+    , "e": ["^e", False, ""] }
+  , "ctrl"
+   : {"q": ["^p", False, ""] } }
+
+keys["WINWORD.EXE"]
+:= {"alt"
    : {"b": ["^b", False, ""]
     , "i": ["^i", False, ""]
-    , "u": ["^u", False, ""] }
+    , "u": ["^u", False, ""]
+    , "e": ["^e", False, ""] }
   , "ctrl"
    : {"q": ["^p", False, ""] } }
 
@@ -113,7 +131,7 @@ keys["globalOverride"]
   , "alt"
     : {"m": ["{LWin down}{Up}{LWin up}", False, ""] } }
 
-global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe", "ubuntu2004.exe", "sublime_text.exe", "Zoom.exe"]
+global appsWithNativeEmacsKeybindings = ["emacs.exe", "rubymine64.exe", "conemu64.exe", "ubuntu2004.exe", "sublime_text.exe", "Zoom.exe", "Code.exe", "WindowsTerminal.exe", "clion64.exe", "Photoshop.exe"]
 global ctrlXActive := False
 global ctrlSpaceActive := False
 
