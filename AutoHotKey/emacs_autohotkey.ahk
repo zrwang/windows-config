@@ -23,7 +23,7 @@
 ; "chrome.exe" (and other EXE names) specifies app specific keybindings taking precendence over "globalEmacs"
 
 ; Syntax Example
-; "globalEmacs" : { "ctrl" { "a": ["{Home}", False, ""] } }
+; "globalEmacs" : { "ctrl" { "a": ["{Home}", True, ""] } }
 ; This keybinding states, for all apps other than Emacs map Ctrl+a to Home and maintain any mark previously set while editing text.
 
 ; "globalEmacs" : { "ctrl" { "k": ["", False, "MacroKillLine"] } }
