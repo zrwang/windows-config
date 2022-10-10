@@ -1,0 +1,10 @@
+﻿Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Create on: October 4, 2021
+; Tutorial: https://www.elevenforum.com/t/disable-show-more-options-context-menu-in-windows-11.1589/
+
+
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}]
+
+
