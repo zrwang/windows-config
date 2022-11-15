@@ -101,6 +101,27 @@ keys["chrome.exe"]
     , "/": ["^/", False, ""]
     , "r": ["^r", False, ""] } }
 
+keys["msedge.exe"]
+:= {"ctrlXPrefix"
+   : {"b": ["^o", False, ""]
+    , "d": ["^+j", False, ""]
+    , "f": ["^l", False, ""]
+    , "k": ["^w", False, ""] }
+  , "alt"
+   : {"n": ["^t", False, ""]
+    , "d": ["^d", False, ""]
+    , "b": ["^b", False, ""]
+    , "i": ["^i", False, ""]
+    , "u": ["^u", False, ""]
+    , "e": ["^e", False, ""]
+    , "\": ["^\", False, ""]
+    , "k": ["^w", False, ""]
+    , "h": ["^h", False, ""] }
+  , "ctrl"
+   : {"q": ["^p", False, ""]
+    , "/": ["^/", False, ""]
+    , "r": ["^r", False, ""] } }
+
 keys["Notion.exe"]
 := {"alt"
    : {"d": ["^d", False, ""]
