@@ -1,7 +1,8 @@
+; Toggle key Press of j
 !+j::
     RepeatKeyJ := !RepeatKeyJ
     If RepeatKeyJ {
-        SetTimer, SendTheKeyJ, 5000	; The "2000" here is the number of milliseconds between repeats.
+        SetTimer, SendTheKeyJ, 2000	; The "2000" here is the number of milliseconds between repeats.
         SetTimer, SendTheKeyK, Off
     }
     Else
@@ -12,10 +13,11 @@ SendTheKeyJ:
     SendInput, j
 Return
 
+; Toggle key press of k
 !+k::
     RepeatKeyK := !RepeatKeyK
     If RepeatKeyK {
-        SetTimer, SendTheKeyK, 5000	; The "2000" here is the number of milliseconds between repeats.
+        SetTimer, SendTheKeyK, 2000	; The "2000" here is the number of milliseconds between repeats.
         SetTimer, SendTheKeyJ, Off
     }
     Else
@@ -24,4 +26,9 @@ Return
 
 SendTheKeyK:
     SendInput, k
+Return
+
+; Right Shift for toggle input method
+RShift::
+    Send, #{Space}
 Return
