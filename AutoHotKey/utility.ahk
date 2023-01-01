@@ -30,5 +30,7 @@ Return
 
 ; Right Shift for toggle input method
 RShift::
-    Send, #{Space}
+    KeyWait, RShift
+    If (A_TimeSinceThisHotkey < 200)
+        Send, #{Space}
 Return
