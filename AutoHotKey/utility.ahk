@@ -34,3 +34,6 @@ RShift::
     If (A_TimeSinceThisHotkey < 200)
         Send, #{Space}
 Return
+
+; control + right click = middle button
+^RButton::MButton
