@@ -1,0 +1,40 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-02-25T06:13:17.899Z",
+    "redirects": [
+        {
+            "description": "ONES cloud to local",
+            "exampleUrl": "https://ones.cn/wiki/#/team/PGNxaT2p/page/FHKsXMVk/",
+            "exampleResult": "https://ones.csrbtx.com/wiki/#/team/PGNxaT2p/page/FHKsXMVk/",
+            "error": null,
+            "includePattern": "https://ones.cn/*",
+            "excludePattern": "",
+            "patternDesc": "All ONES cloud to local",
+            "redirectUrl": "https://ones.csrbtx.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "ONES local http to https",
+            "exampleUrl": "http://ones.csrbtx.com:28888/project/#/team/PGNxaT2p",
+            "exampleResult": "https://ones.csrbtx.com/project/#/team/PGNxaT2p",
+            "error": null,
+            "includePattern": "http://ones.csrbtx.com:28888/*",
+            "excludePattern": "",
+            "patternDesc": "All ONES http to https",
+            "redirectUrl": "https://ones.csrbtx.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
